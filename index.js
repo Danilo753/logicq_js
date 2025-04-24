@@ -1,5 +1,5 @@
 let nomeHeroi = "Azriel";
-let experiencia = 9500;
+let experiencia = 3000;
 let nivel = "";
 
 switch (true) {
@@ -27,7 +27,7 @@ switch (true) {
         nivel = "Ascendente";
         break;
 
-    case (experiencia >= 9001 && experiencia <= 10000):
+    case (experiencia >= 9001 && experiencia <= 10000): 
         nivel = "Imortal";
         break;
 
